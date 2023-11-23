@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Anima la propiedad "alpha" para que la imagen se haga visible -->
+    <objectAnimator
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:duration="3000"
+        android:propertyName="alpha"
+        />
+
+    <!-- Anima la propiedad rotacion para que la imagen de una vuelta de 360 grados -->
+    <objectAnimator
+        android:valueFrom="360"
+        android:valueTo="0"
+        android:duration="3000"
+        android:propertyName="rotation"
+        />
+
+    <!-- Anima la propiedad translationY para que se mueva-->
+    <objectAnimator
+        android:propertyName="translationY"
+        android:valueFrom="-1000"
+        android:valueTo="0"
+        android:duration="3000"
+        />
+
+</set>
